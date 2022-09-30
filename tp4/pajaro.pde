@@ -7,7 +7,7 @@ class Pajaro {
   float tamano1; 
   float tamano2; 
   float velX;
-  int c;
+ 
 
   Pajaro (int posx, int posy, int ancho, int alto, float velx) { //Constructor
   
