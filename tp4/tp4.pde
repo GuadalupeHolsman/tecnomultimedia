@@ -1,34 +1,18 @@
-// GATITO ATRAPA SUSHI
+//https://drive.google.com/file/d/1TgLyp40HLpnbGM1WVQpTgptSX38kc_hQ/view?usp=sharing
+//tuve inconvenientes para subirlo a youtube por eso lo mando por drive
 
-Bomba bomba;
-Gatito gatito;
-Sushi sushi;
-/*
+Desierto desierto; //Declara el objeto
 
-void setup {
+void setup() {
   size(800, 800);
+  smooth();
 
-  bomba= new Bomba (width/2, 0, 50, 50); ( mas de una bomba)
-  sushi= new Sushi (width/2, 0, 50, 50); ( mas de un sushi)
-  gatito= new Gatito (width/2,600 , 100, 100);
+  desierto = new Desierto ( 0, 0);
   
 }
 
-void draw{
-    background(150);
-
-(todos con sus respectivos parametros)
-bomba.colision();
-gatito.mover();
-gatito.colision();
-sushi.colision();
-  
-  
-  
-  
+void draw() {
+  background(0);
+  desierto.mostrar();
+ 
 }
-
-
-
-
-*/
